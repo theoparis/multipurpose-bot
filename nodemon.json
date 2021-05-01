@@ -1,0 +1,8 @@
+{
+    "watch": ["src", ".env"],
+    "ext": "ts,env,js",
+    "exec": "pnpm run build && pnpm run start",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
