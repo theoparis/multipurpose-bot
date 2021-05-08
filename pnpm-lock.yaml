@@ -10,7 +10,7 @@ specifiers:
   chai: 4.3.4
   discord-akairo: ^8.1.0
   discord.js: ^12.5.3
-  dotenv: ^8.2.0
+  dotenv: ^9.0.0
   eslint: 7.25.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-prettier: 3.4.0
@@ -30,7 +30,7 @@ dependencies:
   '@nedbot/logger': 1.0.2
   discord-akairo: 8.1.0
   discord.js: 12.5.3
-  dotenv: 8.2.0
+  dotenv: 9.0.0
   pg: 8.6.0
   typeorm: 0.2.32
   zod: 3.0.0-alpha.29
@@ -1100,6 +1100,11 @@ packages:
   /dotenv/8.2.0:
     resolution: {integrity: sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==}
     engines: {node: '>=8'}
+    dev: false
+
+  /dotenv/9.0.0:
+    resolution: {integrity: sha512-yy3x9XjojW8ROTBePD25AcMoHqGHsvHmtfw8QWlpEXyMMXXPj6brUA464AptUvHuTPRmNz6Sd3ZLNLeJl6dHJA==}
+    engines: {node: '>=10'}
     dev: false
 
   /duplexer3/0.1.4:
