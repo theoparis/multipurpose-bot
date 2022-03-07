@@ -19,7 +19,7 @@ specifiers:
   nodemon: ^2.0.7
   nyc: 15.1.0
   pg: ^8.6.0
-  prettier: 2.2.1
+  prettier: 2.5.1
   prisma: ^2.21.2
   ts-mocha: 8.0.0
   typeorm: ^0.2.32
@@ -44,12 +44,12 @@ devDependencies:
   chai: 4.3.4
   eslint: 7.25.0
   eslint-config-prettier: 8.3.0_eslint@7.25.0
-  eslint-plugin-prettier: 3.4.0_ed07edc0d33fb90bb2bebf56b9b5e0f9
+  eslint-plugin-prettier: 3.4.0_e798a41ef08d15c99136d12a4c206a64
   husky: 6.0.0
   mocha: 8.3.2
   nodemon: 2.0.7
   nyc: 15.1.0
-  prettier: 2.2.1
+  prettier: 2.5.1
   prisma: 2.21.2
   ts-mocha: 8.0.0_mocha@8.3.2
   typescript: 4.2.4
@@ -1161,7 +1161,7 @@ packages:
       eslint: 7.25.0
     dev: true
 
-  /eslint-plugin-prettier/3.4.0_ed07edc0d33fb90bb2bebf56b9b5e0f9:
+  /eslint-plugin-prettier/3.4.0_e798a41ef08d15c99136d12a4c206a64:
     resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -1174,7 +1174,7 @@ packages:
     dependencies:
       eslint: 7.25.0
       eslint-config-prettier: 8.3.0_eslint@7.25.0
-      prettier: 2.2.1
+      prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -1424,6 +1424,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2463,8 +2464,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.2.1:
-    resolution: {integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -3019,6 +3020,7 @@ packages:
 
   /tsconfig-paths/3.9.0:
     resolution: {integrity: sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==}
+    requiresBuild: true
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
